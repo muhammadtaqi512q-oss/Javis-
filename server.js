@@ -7,7 +7,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
 // ⚠️ Put your real API key here
-const API_KEY = "YOUR_API_KEY_HERE";
+const API_KEY = "AIzaSyC1v0qpnQ67wdZ-F1JiAMZ2d-HH4HFF-WU";
 
 app.post("/generate", async (req, res) => {
   try {
